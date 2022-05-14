@@ -1,11 +1,21 @@
-![image](https://user-images.githubusercontent.com/100985462/168415683-7b090731-6aa4-4798-a268-6b9ad5ef7bea.png)
+# TEST CASES AND CORRESPONDING OUTPUTS
 
-![image](https://user-images.githubusercontent.com/100985462/168415690-360647e3-2ab9-4a8e-990b-2d5a1bc30199.png)
+## HIGH-LEVEL TEST CASES
 
-![image](https://user-images.githubusercontent.com/100985462/168415713-d191f558-4b55-4c7b-ac7f-ad088d0f7247.png)
+|Test ID|	Description|	Exp.i/p|	Exp.o/p|	Actual o/p	|STATUS|
+|-------|------------|---------|---------|--------------|------|
+|1	|check if the BUTTTON is pressed	|program execution|	Microcontroller/Engine starts|	LED ON(RED)	|PASS|
+|2	|check if the BUTTTON is pressed	|program execution|WIPER starts	|LED ON(BLUE)	|PASS|
+|3	|check if the BUTTTON is pressed	|program execution|	WIPER starts	|LED ON(GREEN)|	PASS|
+|4  |check if the BUTTTON is pressed	|program execution|	WIPER starts	|LED ON(ORANGE)|	PASS|
+|5	|check if the BUTTTON is pressed	|-	|Microcontroller/Engine stops	|LED TURNED OFF	|PASS|
 
-![image](https://user-images.githubusercontent.com/100985462/168415742-5a254a76-819b-4c22-8c56-56be1e377123.png)
+## LOW-LEVEL TEST CASES
 
-![image](https://user-images.githubusercontent.com/100985462/168415755-8ec76d9a-9e0a-432c-8b42-55a485357ba0.png)
-
-
+|Test ID	| Description	| Exp.i/p	| Exp.o/p	| Actual o/p	| STATUS|
+|---------|-------------|---------|---------|-------------|-------|
+|1	|check if the BUTTTON is pressed|	program execution|	Microcontroller/Engine starts	|LED ON(RED)	|PASS|
+|2	|check if the BUTTTON is pressed again|	program execution	|WIPER starts and speed of wiper is slow|	LED ON(BLUE)	|PASS|
+|3	|check if the BUTTTON is pressed again|	program execution	|WIPER starts and speed of wiper is moderate|	LED ON(GREEN)|	PASS|
+|4	|check if the BUTTTON is pressed again|	program execution	|WIPER starts and speed of wiper is good	|LED ON(ORANGE)|	PASS|
+|5	|check if the BUTTTON is pressed again|	-	|Microcontroller/Engine stops|	LED TURNED OFF|	PASS|
