@@ -36,19 +36,23 @@ Wiper system is the utility project. It is used to clean the wind shield of the 
 * User acceptance in terms of both purchase intention and frequent activation after purchase.
 * cost.
 * MTM delayed adaptation.
+## REQUIREMENTS
+
 ## High Level Requirements
-| HLR | Description |
-|---- | ---------- |
-| HLR_1 | Hardware materials |
-| HLR_2 | System control should be proper condition |
-| HLR_3 | Wind shield should have connectors |
-| HLR_4 | It requires missionary conditions |
 
-## Low Level Requirements
-| LLR | Description |
-|-----| ----------- |
-| LLR_1 | High maintaince is required |
-| LLR_2 | It consumes more battery |
-| LLR_3 | When antifreeze washer fluid is used, it can help the wipers |
-| LLR_4 | System should work thoroughly |
+|  ID  |   Description   |  Status  |
+|------|-----------------|----------|
+| HR_01| ACC Mode Operation| Implemented|
+| HR_02|Wiper ON| Implemented|
+| HR_03|Wiper Speed Change|Implemented|
+|HR_04|Wiper OFF|Implemented|
 
+## Low Level Reuirements
+
+| ID	| Description	| Operation	|Status |
+|-----|-------------|-----------|-------|
+|LR_01|	Button pressed once for 2 secs|	Red LED ON	|Implemented|
+|LR_02|	Button pressed second time|	1 Hz speed - Blue, Green Orange alternative|Implemented|
+|LR_03|	Button pressed third time|4 Hz speed - Blue, Green Orange alternative	|Implemented|
+|LR_04|	Button pressed fourth time|8 Hz speed - Blue, Green Orange alternative|Implemented|
+|LR_05|Button pressed again for two seconds|Turn Off all LEDs|Implemented|
