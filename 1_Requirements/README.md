@@ -37,7 +37,7 @@ Wiper system is the utility project. It is used to clean the wind shield of the 
 *   Increase safety.
 *   Capacityincreases under shot gaps.
 *   Smootness trafic flow.
-*   
+  
 ## Weekness
 
 *   Limited speed.
@@ -57,8 +57,6 @@ Wiper system is the utility project. It is used to clean the wind shield of the 
 *   User acceptance in terms of both purchase intention and frequent activation after purchase.
 *   cost.
 *   MTM delayed adaptation.
-
-## REQUIREMENTS
 
 ## High Level Requirements
 
